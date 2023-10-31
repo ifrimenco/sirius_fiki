@@ -10,7 +10,9 @@ import HorizontalDivider from './Components/HorizontalDivider'
 import Solution from './Components/Solution';
 import CustomerSegment from './Components/CustomerSegment';
 import NavBar from './Components/NavBar'
+import Typography from '@mui/material/Typography';
 import axios from 'axios'; 
+import CostStructure from './Components/CostStructure';
 
 function App() {
 
@@ -36,6 +38,12 @@ function App() {
     
     {projectData  && (
       <div>
+
+        <HorizontalDivider/>
+        <Typography variant="h3" gutterBottom style={{fontFamily: 'Montserrat, sans-serif'}}>
+          M1 - 01.11.23
+        </Typography>
+        <HorizontalDivider/>
         <Team peopleData={projectData.people}/>
         <HorizontalDivider/>
         <Problem problem={projectData.problem}/>
@@ -49,6 +57,8 @@ function App() {
         <Advantage advantage={projectData.advantage}/>
         <HorizontalDivider/>
         <KeyMetrics metrics={projectData.metrics}/>
+        <HorizontalDivider/>
+        <CostStructure costStructureData={projectData.costStructure}/>
       </div>
       )}
     </div>

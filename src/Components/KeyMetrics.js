@@ -1,6 +1,8 @@
 import React from 'react';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
+import { List, ListItem, ListItemIcon, ListItemText } from '@mui/material';
+import KeyIcon from '@mui/icons-material/Key';
 
 const KeyMetrics = ({ metrics }) => {
   const containerStyle = {
@@ -26,9 +28,12 @@ const KeyMetrics = ({ metrics }) => {
   };
 
   const metricItemStyle = {
+    fontFamily: 'Montserrat, sans-serif',
+    padding: 0,
+    textAlign: 'left',
     margin: '0.5rem 0',
     position: 'relative',
-    paddingLeft: '1.5rem', // Create space for custom bullet point
+    paddingLeft: '2.5rem', // Create space for custom bullet point
   };
 
   return (
@@ -37,13 +42,18 @@ const KeyMetrics = ({ metrics }) => {
         <Typography variant="h4" gutterBottom style={titleStyle}>
           Key Metrics
         </Typography>
-        <ul style={metricListStyle}>
+        <List style={metricListStyle}>
           {metrics.map((metric, index) => (
-            <li key={index} style={metricItemStyle}>
-              {metric}
-            </li>
+            <ListItem key={index} style={metricItemStyle}>
+              <ListItemIcon>
+                <KeyIcon/>
+              </ListItemIcon>
+              <ListItemText>
+                {metric}
+              </ListItemText>
+            </ListItem>
           ))}
-        </ul>
+        </List>
       </div>
     </Box>
   );

@@ -3,26 +3,26 @@
       {
         "name": "Alex Ifrimenco",
         "Role": "Full Stack Engineer",
-        "contact": "ifrimenco.alex@gmail.com | +40 747 302 940",
-        "description": "Coios șmecher barosan",
+        "contact": "ifrimenco.alex@gmail.com  +40 747 302 940",
+        "description": "Full Stack Engineer",
         "image": "images/alex-ifrimenco.jpg"
       },
       {
         "name": "Daniel Airinei",
-        "contact": "airineidaniel23@email.com | 0744378051",
+        "contact": "airineidaniel23@gmail.com  +40 744 378 051",
         "description": "Full Stack Engineer",
         "image": "images/daniel-airinei.jpg"
       },
       {
         "name": "Gabriel Majeri",
-        "contact": "bob.johnson@email.com | (555) 123-4567",
-        "description": "Coios șmecher barosan",
+        "contact": "gabriel.majeri6@gmail.com  +40 732 518 406",
+        "description": "Data Engineer",
         "image": "images/gabr.jpg"
       },
       {
         "name": "Alex Cațavei",
-        "contact": "bob.johnson@email.com | (555) 123-4567",
-        "description": "Coios șmecher barosan",
+        "contact": "alexandru.catavei@gmail.com +40 732 405 449",
+        "description": "GIS Engineer",
         "image": "images/cats.jpg"
       }
   ],
@@ -40,9 +40,19 @@
       "image": "images/agricloud.png"
     }
   ],
-  "metrics": ["Number of users", "Retention rate", "Crop yield efficiency rate", "Labor saved"],
+  "metrics": ["Number of users", "Retention rate", "Water, Pesticide & Labor Savings", "Yield Increase"],
   "advantage": "Our distinct advantage lies in the incorporation of artificial intelligence (AI) into our solutions. The integration of AI is a game-changer for the agriculture sector in Romania, and it sets us apart from traditional approaches.",
   "problem": "Inefficient agriculture represents a significant problem in Romania and many other countries, and the need for implementing precision agriculture is becoming increasingly evident, especially in the context of global warming. Precision agriculture is a modern approach that utilizes state-of-the-art technology to enhance the yield of agricultural crops and reduce the negative impact on the environment.",
   "solution": "Our solution is the implementation of advanced technology for monitoring agricultural crops, which relies on data provided by satellites and the power of artificial intelligence. This innovative approach promises to bring significant benefits to Romanian agriculture, addressing the issue of inefficiency in agriculture and contributing to a more sustainable and efficient agricultural sector.",
-  "customers": "Our primary customer segment consists of Romanian farmers. We recognize the diverse landscape of agriculture in Romania, with both large-scale commercial farming operations and smaller family-owned farms. Our commitment to serving this dynamic customer base involves tailoring solutions to meet the specific needs of both large and small-scale farmers."
+  "customers": "Our primary customer segment consists of Romanian farmers. We recognize the diverse landscape of agriculture in Romania, with both large-scale commercial farming operations and smaller family-owned farms. Our commitment to serving this dynamic customer base involves tailoring solutions to meet the specific needs of both large and small-scale farmers.",
+  "costStructure": [
+    {
+      "name": "Fixed Costs",
+      "items": ["Satellite Data Subscription", "Salaries", "Licenses", "Insurance", "Website Hosting"]
+    },
+    {
+      "name": "Variable Costs",
+      "items": ["OpenAI API Usage", "Computing Power", "Marketing and Advertising", "R&D", "Taxes"]
+    }
+  ]
 }
