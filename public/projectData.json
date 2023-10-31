@@ -40,6 +40,8 @@
       "image": "images/agricloud.png"
     }
   ],
+  "metrics": ["Number of users", "Retention rate", "Crop yield efficiency rate", "Labor saved"],
+  "advantage": "Our distinct advantage lies in the incorporation of artificial intelligence (AI) into our solutions. The integration of AI is a game-changer for the agriculture sector in Romania, and it sets us apart from traditional approaches.",
   "problem": "Inefficient agriculture represents a significant problem in Romania and many other countries, and the need for implementing precision agriculture is becoming increasingly evident, especially in the context of global warming. Precision agriculture is a modern approach that utilizes state-of-the-art technology to enhance the yield of agricultural crops and reduce the negative impact on the environment.",
   "solution": "Our solution is the implementation of advanced technology for monitoring agricultural crops, which relies on data provided by satellites and the power of artificial intelligence. This innovative approach promises to bring significant benefits to Romanian agriculture, addressing the issue of inefficiency in agriculture and contributing to a more sustainable and efficient agricultural sector.",
   "customers": "Our primary customer segment consists of Romanian farmers. We recognize the diverse landscape of agriculture in Romania, with both large-scale commercial farming operations and smaller family-owned farms. Our commitment to serving this dynamic customer base involves tailoring solutions to meet the specific needs of both large and small-scale farmers."

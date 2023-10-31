@@ -4,6 +4,8 @@ import './App.css';
 import Team from './Components/Team';
 import Competition from './Components/Competition';
 import Problem from './Components/Problem';
+import KeyMetrics from './Components/KeyMetrics';
+import Advantage from './Components/Advantage';
 import Solution from './Components/Solution';
 import CustomerSegment from './Components/CustomerSegment';
 import NavBar from './Components/NavBar'
@@ -38,6 +40,8 @@ function App() {
         <Solution solution={projectData.solution}/>
         <CustomerSegment customers={projectData.customers}/>
         <Competition companiesData={projectData.companies}/>
+        <Advantage advantage={projectData.advantage}/>
+        <KeyMetrics metrics={projectData.metrics}/>
       </div>
       )}
     </div>
