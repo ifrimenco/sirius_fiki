@@ -1,0 +1,29 @@
+{
+  "people": [
+      {
+        "name": "Alex Ifrimenco",
+        "Role": "Full Stack Engineer",
+        "contact": "ifrimenco.alex@gmail.com | +40 747 302 940",
+        "description": "Coios șmecher barosan",
+        "image": "images/alex-ifrimenco.jpg"
+      },
+      {
+        "name": "Daniel Airinei",
+        "contact": "alice.smith@email.com | (987) 654-3210",
+        "description": "Coios șmecher barosan",
+        "image": "images/daniel-airinei.jpg"
+      },
+      {
+        "name": "Gabriel Majeri",
+        "contact": "bob.johnson@email.com | (555) 123-4567",
+        "description": "Coios șmecher barosan",
+        "image": "images/alex-ifrimenco.jpg"
+      },
+      {
+        "name": "Alex Cațavei",
+        "contact": "bob.johnson@email.com | (555) 123-4567",
+        "description": "Coios șmecher barosan",
+        "image": "images/alex-ifrimenco.jpg"
+      }
+  ]
+}
