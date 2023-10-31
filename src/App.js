@@ -6,6 +6,7 @@ import Competition from './Components/Competition';
 import Problem from './Components/Problem';
 import KeyMetrics from './Components/KeyMetrics';
 import Advantage from './Components/Advantage';
+import HorizontalDivider from './Components/HorizontalDivider'
 import Solution from './Components/Solution';
 import CustomerSegment from './Components/CustomerSegment';
 import NavBar from './Components/NavBar'
@@ -36,11 +37,17 @@ function App() {
     {projectData  && (
       <div>
         <Team peopleData={projectData.people}/>
+        <HorizontalDivider/>
         <Problem problem={projectData.problem}/>
+        <HorizontalDivider/>
         <Solution solution={projectData.solution}/>
+        <HorizontalDivider/>
         <CustomerSegment customers={projectData.customers}/>
+        <HorizontalDivider/>
         <Competition companiesData={projectData.companies}/>
+        <HorizontalDivider/>
         <Advantage advantage={projectData.advantage}/>
+        <HorizontalDivider/>
         <KeyMetrics metrics={projectData.metrics}/>
       </div>
       )}
