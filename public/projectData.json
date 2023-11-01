@@ -54,5 +54,15 @@
       "name": "Variable Costs",
       "items": ["OpenAI API Usage", "Computing Power", "Marketing and Advertising", "R&D", "Taxes"]
     }
+  ],
+  "revenueStream": [
+    {
+      "name": "One-Time Purchases",
+      "items": ["Satellite Data Service", "Consultance", "Data interpretation"]
+    },
+    {
+      "name": "Subscriptions",
+      "items": ["Free access", "Basic access", "Premium access"]
+    }
   ]
 }

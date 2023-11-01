@@ -13,6 +13,7 @@ import NavBar from './Components/NavBar'
 import Typography from '@mui/material/Typography';
 import axios from 'axios'; 
 import CostStructure from './Components/CostStructure';
+import RevenueStream from './Components/RevenueStream';
 
 function App() {
 
@@ -59,6 +60,8 @@ function App() {
         <KeyMetrics metrics={projectData.metrics}/>
         <HorizontalDivider/>
         <CostStructure costStructureData={projectData.costStructure}/>
+        <HorizontalDivider/>
+        <RevenueStream revenueStreamData={projectData.revenueStream}/>
       </div>
       )}
     </div>
