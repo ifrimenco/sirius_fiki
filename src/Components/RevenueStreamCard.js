@@ -10,7 +10,7 @@ import AttachMoneyIcon from '@mui/icons-material/AttachMoney';
 
 const RevenueStreamCard = ({ costBranch }) => {
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <Card sx={{ width: 295 }}>
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
           {costBranch.name}
