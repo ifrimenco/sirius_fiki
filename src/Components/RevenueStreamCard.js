@@ -20,7 +20,7 @@ const RevenueStreamCard = ({ costBranch }) => {
         {costBranch.items.map((item) => (
             <ListItem>
               <ListItemIcon>
-                <AttachMoneyIcon sx={{color: 'red'}}/>
+                <AttachMoneyIcon sx={{color: 'green'}}/>
               </ListItemIcon>
               <ListItemText>
                 {item}
