@@ -64,5 +64,20 @@
       "name": "Subscriptions",
       "items": ["Free access", "Basic access", "Premium access"]
     }
-  ]
+  ],
+
+  "problems": [
+    "Conducted a brief market analysis of two prominent hypermarket chains and found that a significant portion of Romania's vegetable supply is sourced from imports, highlighting the agricultural sector's vulnerability in the country.", 
+    "Farmers unanimously expressed concerns about low production levels, but the majority of those interviewed remained inactive, citing a lack of knowledge on how to address this issue effectively.", 
+    "Despite the availability of existing solutions in the market, many individuals were unaware of the possibility of monitoring crops using satellite data."],
+
+  "solutionForProblem": [
+    "Monitoring different information about a culture, such as vegetation volume, water and pests", 
+    "Providing an intuitive, easy to use application",
+    "The assistant comes in help for people who do not know what NDVI, NDWI or any other indices mean"],
+
+  "customerDiscoveryMethods": [
+    "Networking with farmers", 
+    "Going to the local market and asking questions directly",
+    "Approaching people on en-gros market and asking them questions"]
 }

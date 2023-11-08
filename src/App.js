@@ -1,19 +1,23 @@
 import logo from './logo.svg';
 import React from 'react';
 import './App.css';
-import Team from './Components/Team';
-import Competition from './Components/Competition';
-import Problem from './Components/Problem';
-import KeyMetrics from './Components/KeyMetrics';
-import Advantage from './Components/Advantage';
+import Team from './Components/M1/Team';
+import Competition from './Components/M1/Competition';
+import Problem from './Components/M1/Problem';
+import KeyMetrics from './Components/M1/KeyMetrics';
+import Advantage from './Components/M1/Advantage';
 import HorizontalDivider from './Components/HorizontalDivider'
-import Solution from './Components/Solution';
-import CustomerSegment from './Components/CustomerSegment';
+import ProblemIdentification from './Components/M2/ProblemIdentification';
+import SolutionForProblem from './Components/M2/SolutionForProblem';
+import CustomerDiscovery from './Components/M2/CustomerDiscovery';
+import CustomerSegmentProcess from './Components/M2/CustomerSegmentProcess';
+import Solution from './Components/M1/Solution';
+import CustomerSegment from './Components/M1/CustomerSegment';
 import NavBar from './Components/NavBar'
 import Typography from '@mui/material/Typography';
 import axios from 'axios'; 
-import CostStructure from './Components/CostStructure';
-import RevenueStream from './Components/RevenueStream';
+import CostStructure from './Components/M1/CostStructure';
+import RevenueStream from './Components/M1/RevenueStream';
 
 function App() {
 
@@ -39,7 +43,6 @@ function App() {
     
     {projectData  && (
       <div>
-
         <HorizontalDivider/>
         <Typography variant="h3" gutterBottom style={{fontFamily: 'Montserrat, sans-serif'}}>
           M1 - 01.11.23
@@ -62,6 +65,20 @@ function App() {
         <CostStructure costStructureData={projectData.costStructure}/>
         <HorizontalDivider/>
         <RevenueStream revenueStreamData={projectData.revenueStream}/>
+
+        <HorizontalDivider/>
+        <Typography variant="h3" gutterBottom style={{fontFamily: 'Montserrat, sans-serif'}}>
+          M2 - 01.11.23
+        </Typography>
+        <HorizontalDivider/>
+        <ProblemIdentification problems={projectData.problems}/>
+        <HorizontalDivider/>
+        <SolutionForProblem solutions={projectData.solutionForProblem}/>
+        <HorizontalDivider/>
+        <CustomerDiscovery customerDiscoveryMethods={projectData.customerDiscoveryMethods}/>
+        <HorizontalDivider/>
+        <CustomerSegmentProcess/>
+
       </div>
       )}
     </div>
