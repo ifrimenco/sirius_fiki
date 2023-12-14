@@ -3,7 +3,7 @@
       {
         "name": "Alex Ifrimenco",
         "Role": "Full Stack Engineer",
-        "contact": "ifrimenco.alex@gmail.com  +40 747 302 940",
+        "contact": "alex.ifrimenco@gmail.com  +40 747 302 940",
         "description": "Full Stack Engineer",
         "image": "images/alex-ifrimenco.jpg"
       },
@@ -79,5 +79,8 @@
   "customerDiscoveryMethods": [
     "Networking with farmers", 
     "Going to the local market and asking questions directly",
-    "Approaching people on en-gros market and asking them questions"]
+    "Approaching people on en-gros market and asking them questions"],
+    "insightEffect": "We are continuously evolving and perfecting our product as we gain deeper insights. We can not define our product without gaining insight in the first place.",
+  "customerValidationStage": "No, we are not ready to progress to the Customer Validation stage for selling at this time. Our primary reason is that our service is not well defined yet. We are still in the process of gaining a deeper understanding of the problem we aim to solve. As we explore the challenges and needs of our target audience. We are now only entering the early stages of defining a solution, based on what we learned so far about the problem."
+  
 }

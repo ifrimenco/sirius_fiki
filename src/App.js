@@ -10,14 +10,20 @@ import HorizontalDivider from './Components/HorizontalDivider'
 import ProblemIdentification from './Components/M2/ProblemIdentification';
 import SolutionForProblem from './Components/M2/SolutionForProblem';
 import CustomerDiscovery from './Components/M2/CustomerDiscovery';
-import CustomerSegmentProcess from './Components/M2/CustomerSegmentProcess';
+import CustomerSegmentProcess from './Components/M2/CustomerSegmentProcess.js';
+import InsightEffect from './Components/M2/InsightEffect';
+import CustomerValidationStage from './Components/M2/CustomerValidationStage';
 import Solution from './Components/M1/Solution';
 import CustomerSegment from './Components/M1/CustomerSegment';
+
+import Interviews from './Components/M4/Interviews';
 import NavBar from './Components/NavBar'
 import Typography from '@mui/material/Typography';
 import axios from 'axios'; 
 import CostStructure from './Components/M1/CostStructure';
 import RevenueStream from './Components/M1/RevenueStream';
+import UserPersona from './Components/M4/UserPersona';
+import UserFlow from './Components/M4/UserFlow';
 
 function App() {
 
@@ -68,7 +74,7 @@ function App() {
 
         <HorizontalDivider/>
         <Typography variant="h3" gutterBottom style={{fontFamily: 'Montserrat, sans-serif'}}>
-          M2 - 01.11.23
+          M2 - 08.11.23
         </Typography>
         <HorizontalDivider/>
         <ProblemIdentification problems={projectData.problems}/>
@@ -78,7 +84,33 @@ function App() {
         <CustomerDiscovery customerDiscoveryMethods={projectData.customerDiscoveryMethods}/>
         <HorizontalDivider/>
         <CustomerSegmentProcess/>
+        <HorizontalDivider/>
+        <InsightEffect insightEffect={projectData.insightEffect}/>
+        <HorizontalDivider/>
+        <CustomerValidationStage customerValidationStage={projectData.customerValidationStage}/>
+        <HorizontalDivider/>
 
+        <Typography variant="h3" gutterBottom style={{fontFamily: 'Montserrat, sans-serif'}}>
+          M3 - 15.11.23
+        </Typography>
+
+        <HorizontalDivider/>
+
+        <Typography variant="h4" gutterBottom style={{fontFamily: 'Montserrat, sans-serif'}}>
+          <a href="https://www.figma.com/file/rkLeLNuvAARqswurvuY2st/Wireframe-Designer-(Community)?type=design&node-id=2-997&mode=design">Wireframe</a>
+        </Typography>
+        <Typography variant="h4" gutterBottom style={{fontFamily: 'Montserrat, sans-serif'}}>
+          <a href="http://sirius-landing-page.s3-website.eu-north-1.amazonaws.com/">Landing Page</a>
+        </Typography>
+        <HorizontalDivider/>
+
+        <Typography variant="h3" gutterBottom style={{fontFamily: 'Montserrat, sans-serif'}}>
+          M4 - 22.11.23
+        </Typography>
+        <HorizontalDivider/>
+        <Interviews/>
+        <UserPersona/>
+        <UserFlow/>
       </div>
       )}
     </div>
