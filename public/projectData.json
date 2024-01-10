@@ -12,18 +12,6 @@
         "contact": "airineidaniel23@gmail.com  +40 744 378 051",
         "description": "Full Stack Engineer",
         "image": "images/daniel-airinei.jpg"
-      },
-      {
-        "name": "Gabriel Majeri",
-        "contact": "gabriel.majeri6@gmail.com  +40 732 518 406",
-        "description": "Data Engineer",
-        "image": "images/gabr.jpg"
-      },
-      {
-        "name": "Alex Cațavei",
-        "contact": "alexandru.catavei@gmail.com +40 732 405 449",
-        "description": "GIS Engineer",
-        "image": "images/cats.jpg"
       }
   ],
   "companies": [

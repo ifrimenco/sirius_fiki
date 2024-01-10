@@ -111,6 +111,17 @@ function App() {
         <Interviews/>
         <UserPersona/>
         <UserFlow/>
+        <HorizontalDivider/>
+
+        <Typography variant="h3" gutterBottom style={{fontFamily: 'Montserrat, sans-serif'}}>
+          M7 - MVP
+        </Typography>
+
+        <Typography variant="p">
+         MVP is up. 
+        </Typography>
+        <a href="http://sirius-landing-page.s3-website.eu-north-1.amazonaws.com/">Landing page</a>
+        <HorizontalDivider/>
       </div>
       )}
     </div>
